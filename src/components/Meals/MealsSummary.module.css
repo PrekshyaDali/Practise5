@@ -13,7 +13,7 @@
   /* position: relative; */
   margin-top: -80px;
   box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.15);
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media(max-width: 390px){
     .summarydiv{
@@ -24,9 +24,10 @@
     }
 }
 .summarydiv p {
-  color: rgb(74, 5, 55);
+  color: rgba(98, 4, 71, 0.795);
   font-size: 15px;
   text-align: center;
+  
 }
 
 .maindiv {

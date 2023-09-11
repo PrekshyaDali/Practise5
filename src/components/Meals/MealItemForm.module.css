@@ -1,0 +1,13 @@
+.form {
+}
+
+
+.Add{
+  background-color: rgb(206, 0, 100);
+  height: 30px;
+  width: 80px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}

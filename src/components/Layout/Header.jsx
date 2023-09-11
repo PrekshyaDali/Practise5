@@ -6,20 +6,17 @@ import MealsSummary from "../Meals/Mealssummary";
 const Header = () => {
   return (
     <React.Fragment>
-     
-        <header className={classes.header}>
-          <h1>React meals</h1>
-          <HeaderCartButton></HeaderCartButton>
-        </header>
-        <div className={classes.imagediv}>
-          <img
-            class={classes.backgroundimage}
-            src="/background-image.jpg"
-            alt="background image"
-          />
-          
-        </div>
-      
+      <header className={classes.header}>
+        <h1>React meals</h1>
+        <HeaderCartButton></HeaderCartButton>
+      </header>
+      <div className={classes.imagediv}>
+        <img
+          class={classes.backgroundimage}
+          src="/background-image.jpg"
+          alt="background image"
+        />
+      </div>
     </React.Fragment>
   );
 };

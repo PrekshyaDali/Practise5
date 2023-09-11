@@ -1,0 +1,14 @@
+input{
+    border-width: 1px;
+    border-color: rgb(179, 177, 177);
+    height: 20px;
+    width: 35px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+}

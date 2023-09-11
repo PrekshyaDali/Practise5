@@ -1,0 +1,28 @@
+.price {
+  font-weight: bold;
+  font-style: italic;
+  color: rgb(213, 0, 145);
+  text-decoration: underline;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e3e0e0;
+
+  /* Add a 1px solid black line below the price */
+}
+.description {
+  font-weight: bold;
+  font-size: 18px;
+  font-style: italic;
+}
+
+h3 {
+  margin-bottom: 2px;
+}
+.meal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.items{
+    flex: 1;
+}
