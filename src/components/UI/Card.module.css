@@ -1,0 +1,15 @@
+/* .card {
+  background-color: rgb(230, 207, 207);
+  max-width: 750px;
+  height: 700px;
+  border-radius: 50px;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.15);
+
+} */
+
+.card {
+    padding: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    background-color: white;
+  }

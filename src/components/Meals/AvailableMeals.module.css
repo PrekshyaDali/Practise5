@@ -1,0 +1,44 @@
+/* AvailableMeals.module.css
+.meallist {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .meallist ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .meallist ul li {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #333;
+  }
+   */
+   .meals {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+  }
+  
+  .meals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @keyframes meals-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

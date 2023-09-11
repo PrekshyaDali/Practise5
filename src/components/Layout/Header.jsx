@@ -1,25 +1,25 @@
 import classes from "./Header.module.css";
 import React from "react";
+import HeaderCartButton from "./HeaderCartButton";
+import MealsSummary from "../Meals/Mealssummary";
 
 const Header = () => {
   return (
     <React.Fragment>
-  
-      <header className={classes.header}>
-        <h1>React meals</h1>
-        <button className={classes.cart}>
+     
+        <header className={classes.header}>
+          <h1>React meals</h1>
+          <HeaderCartButton></HeaderCartButton>
+        </header>
+        <div className={classes.imagediv}>
           <img
-            className={classes.carticon}
-            src="/carticon.svg"
-            alt="cart icon"
+            class={classes.backgroundimage}
+            src="/background-image.jpg"
+            alt="background image"
           />
-          <p>Your Cart</p>
-          <div className={classes.cartnumber}>3</div>
-        </button>
-      </header>
-      <div className = {classes.imagediv}>
-        <img class ={classes.backgroundimage}src="/background-image.jpg" alt="background image" />
-      </div>
+          
+        </div>
+      
     </React.Fragment>
   );
 };
