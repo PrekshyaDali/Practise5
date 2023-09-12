@@ -3,12 +3,12 @@ import React from "react";
 import HeaderCartButton from "./HeaderCartButton";
 import MealsSummary from "../Meals/Mealssummary";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <React.Fragment>
       <header className={classes.header}>
         <h1>React meals</h1>
-        <HeaderCartButton></HeaderCartButton>
+        <HeaderCartButton onClick = {props.onShowCart} ></HeaderCartButton>
       </header>
       <div className={classes.imagediv}>
         <img
