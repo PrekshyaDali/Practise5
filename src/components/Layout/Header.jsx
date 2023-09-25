@@ -12,7 +12,7 @@ const Header = (props) => {
       </header>
       <div className={classes.imagediv}>
         <img
-          class={classes.backgroundimage}
+          className={classes.backgroundimage}
           src="/background-image.jpg"
           alt="background image"
         />

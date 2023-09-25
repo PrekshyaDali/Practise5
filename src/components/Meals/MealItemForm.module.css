@@ -10,4 +10,13 @@
   border-radius: 15px;
   color: white;
   font-weight: bold;
+  cursor: pointer;
+}
+.Add:hover{
+  background-color: rgb(243, 127, 146);
+
+
+}
+.Add:active{
+  background-color: pink;
 }

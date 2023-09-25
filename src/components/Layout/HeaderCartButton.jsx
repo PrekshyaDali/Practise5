@@ -6,18 +6,16 @@ const HeaderCartButton = (props) => {
 
 const cartCtx = useContext(CartContext)
 
-const numberOfCartItems = cartCtx.items.reduce((curNumber, item)=>{
-return curNumber + item.amount;
+console.log(cartCtx.items)
 
-},0) ;
-console.log(numberOfCartItems)
+const numberOfUniqueItems = cartCtx.items.length
 
   return (
     <>
       <button onClick={props.onClick} className={classes.cart}>
         <img className={classes.carticon} src="/carticon.svg" alt="cart icon" />
         <p>Your Cart</p>
-        <div className={classes.cartnumber}>{numberOfCartItems}</div>
+        <div className={classes.cartnumber}>{numberOfUniqueItems}</div>
       </button>
     </>
   );
